@@ -22,3 +22,6 @@ export const newCustomerSchema = joi.object({
     cpf: joi.string().alphanum().min(11).max(11).required(),
     birthday: joi.date().required(),
   });
+
+//line just in cal_branch 4
+
