@@ -2,16 +2,14 @@ import express from "express";
 import joi from "joi"
 import cors from "cors";
 import route from "./routes/index.js";
-import
 
+///lalalala
 const app = express();
 app.use(express.json());
 app.use(cors());
-/// testeeee
+///testeeee
 
 app.use(route);
-
-
 
 //lalallalal
 const port = process.env.PORT || 5000;
